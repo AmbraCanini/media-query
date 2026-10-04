@@ -1,0 +1,119 @@
+/* Soluzione qui */
+/* =========================
+   TABLET
+   ========================= */
+
+@media screen and (min-width: 768px) {
+
+    /* HEADER */
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    #logo {
+        white-space: nowrap;
+    }
+
+    /* MAIN */
+
+    main {
+        padding: 50px;
+    }
+
+
+    /* RECIPE */
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: 32px;
+    }
+
+
+    /* RECIPE INFORMATION */
+
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+
+
+    /* SOCIAL NETWORKS */
+
+    .social-networks button {
+        flex-grow: 1;
+    }
+
+
+    /* ADS */
+
+    .ads {
+        display: block;
+    }
+
+
+    /* PRESENTATION */
+
+    .presentation img {
+        float: left;
+        margin: 0 20px 10px 0;
+    }
+}
+
+
+/* =========================
+   DESKTOP
+   ========================= */
+
+@media screen and (min-width: 992px) {
+
+    /* RECIPE */
+
+    .recipe-name {
+        font-size: 40px;
+    }
+
+
+    /* RECIPE CARD */
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 70%;
+        height: auto;
+    }
+
+    .recipe-info {
+        width: 30%;
+    }
+
+
+    /* QUICK NOTES */
+
+    .quick-notes ul {
+        display: block;
+    }
+
+
+    /* SOCIAL NETWORKS */
+
+    .social-networks .label {
+        display: inline;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+}
